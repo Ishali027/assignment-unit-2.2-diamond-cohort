@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make a variable called secret but don't set it to anything and make a variable 
+// called code and set it to the number 123.
+// Check to see if the value of code is equal to 123. If it is, and it is, you set
+// the value of the variable secret to the string 'super' and multiply the value
+// of the variable called code by 2.
+// Next we check if the new value for code is greater than 250, if it is we change
+//the value for the variable secret to the string 'duper. It is not greater than 250
+// so the value of secret does not change. 
 
 //CODE
 /*
@@ -70,7 +74,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
+// set the variables of isStudent to the booalean true. Set the variable age to the 
+// number 34. set the zip to the number 55407. We make an if else-if else staement
+// to check if student is true and the zip is greater than 80000.
+// check if student is false or age is less than 30. 
+// check if just student is true. Its true so we console log 'Welcome to Prime'.
 // 
 // 
 //
@@ -167,18 +175,3 @@ if(minAge <= age) {
 }
 */
 
-
-let secret;
-
-let code = 123;
-
-if(code === 123) {
-  secret = 'super';
-  code = code * 2;
-}
-
-if (code > 250) {
-  secret = 'duper'
-}
-
-console.log(secret)
