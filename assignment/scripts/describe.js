@@ -137,6 +137,10 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX -colorOne and colorTwo are set to the wrong values, they are inversed.
+// should be: 
+// let colorOne = 'blue';
+// let colorTwo = 'red';
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -155,6 +159,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - instructions say and so it should be && instead of ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -169,8 +174,11 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  // FIX - the console log is incorrect. Should be console.log('enter)
   console.log('no entry');
 } else {
+  // FIX - console log is incorrect. It should be else { console.log( 'no entry')}
+  }
   console.log('enter');
 }
 */
