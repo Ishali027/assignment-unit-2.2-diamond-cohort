@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it to 'Dane' as a string.
+// We check to see if the value of the name is equal to the string 'Mary' or not.
+// It is  not equal to 'Mary' so we console log 'How do you do?'
 //
 
 //CODE
@@ -167,3 +167,18 @@ if(minAge <= age) {
 }
 */
 
+
+let secret;
+
+let code = 123;
+
+if(code === 123) {
+  secret = 'super';
+  code = code * 2;
+}
+
+if (code > 250) {
+  secret = 'duper'
+}
+
+console.log(secret)
